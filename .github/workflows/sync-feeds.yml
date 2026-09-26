@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download feeds
+      - name: Download public feeds
         run: |
           set -u
           mkdir -p cal
@@ -36,11 +36,45 @@ jobs:
           fetch hm-pioneer-band.ics  "https://calendar.google.com/calendar/ical/hmpioneerband%40gmail.com/public/basic.ics"
           date -u +%Y-%m-%dT%H:%M:%SZ > cal/last-sync.txt
 
+      - name: Download and encrypt private Proton calendars
+        env:
+          PROTON_NSO_URL: ${{ secrets.PROTON_NSO_URL }}
+          PROTON_KSO_URL: ${{ secrets.PROTON_KSO_URL }}
+          PROTON_SAM_URL: ${{ secrets.PROTON_SAM_URL }}
+          CAL_PASSPHRASE: ${{ secrets.CAL_PASSPHRASE }}
+        run: |
+          set -u
+          mkdir -p cal/private
+          if [ -z "$CAL_PASSPHRASE" ]; then echo "FAIL private: CAL_PASSPHRASE secret missing"; exit 0; fi
+          UA="Mozilla/5.0 (family-calendar-sync)"
+          private () {
+            name="$1"; url="$2"
+            if [ -z "$url" ]; then echo "FAIL $name (secret missing)"; return; fi
+            tmp="$(mktemp)"
+            if curl -fsSL --retry 3 --max-time 60 -A "$UA" "$url" -o "$tmp" && grep -q "BEGIN:VCALENDAR" "$tmp"; then
+              # Ignore DTSTAMP lines (Proton rewrites them on every export) when deciding whether anything changed.
+              mac="$(grep -v '^DTSTAMP' "$tmp" | openssl dgst -sha256 -hmac "$CAL_PASSPHRASE" | awk '{print $NF}')"
+              if [ -f "cal/private/$name.mac" ] && [ "$(cat "cal/private/$name.mac")" = "$mac" ]; then
+                echo "same $name"
+              else
+                openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -pass env:CAL_PASSPHRASE -in "$tmp" -out "cal/private/$name.ics.enc"
+                echo "$mac" > "cal/private/$name.mac"
+                echo "ok   $name (encrypted)"
+              fi
+            else
+              echo "FAIL $name (kept previous copy)"
+            fi
+            rm -f "$tmp"
+          }
+          private nso "$PROTON_NSO_URL"
+          private kso "$PROTON_KSO_URL"
+          private sam "$PROTON_SAM_URL"
+
       - name: Commit if changed
         run: |
           git config user.name  "calendar-sync"
           git config user.email "calendar-sync@users.noreply.github.com"
-          git add cal/*.ics
+          git add cal/*.ics cal/private 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No calendar changes"
           else
