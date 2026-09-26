@@ -46,5 +46,6 @@ jobs:
           else
             git add cal/last-sync.txt
             git commit -m "Sync calendars"
+            git pull --rebase origin main
             git push
           fi
