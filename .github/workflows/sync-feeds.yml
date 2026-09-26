@@ -1,0 +1,49 @@
+name: Sync family calendar feeds
+
+# Downloads the calendars Claude cannot fetch directly (school, GTCYS, band)
+# and commits them to feeds/ so the Family Week scheduled tasks can read them.
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # every 2 hours (UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download feeds
+        run: |
+          set -u
+          fetch() {
+            name="$1"; url="$2"
+            if curl -fsSL --retry 3 --max-time 60 -A "family-feeds-sync" "$url" -o "feeds/$name.tmp" \
+               && grep -q "BEGIN:VCALENDAR" "feeds/$name.tmp"; then
+              mv "feeds/$name.tmp" "feeds/$name"
+              echo "$name ok"
+            else
+              rm -f "feeds/$name.tmp"
+              echo "$name FAILED" | tee -a feeds/errors.txt
+            fi
+          }
+          rm -f feeds/errors.txt
+          fetch mmsa-school.ics     "https://calendar.google.com/calendar/ical/mmsaschool.org_doi91mkcp0puqcqhvkbm6ufovs%40group.calendar.google.com/public/basic.ics"
+          fetch hm-pioneer-band.ics "https://calendar.google.com/calendar/ical/hmpioneerband%40gmail.com/public/basic.ics"
+          fetch gtcys-phil-east.ics "https://gtcys.org/?post_type=tribe_events&ical=1&eventDisplay=list&tribe_events_cat=phil-east"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > feeds/last-sync.txt
+
+      - name: Commit changes
+        run: |
+          git config user.name  "family-feeds-bot"
+          git config user.email "family-feeds-bot@users.noreply.github.com"
+          git add feeds
+          if git diff --cached --quiet -- feeds/*.ics feeds/errors.txt 2>/dev/null; then
+            echo "No calendar changes"
+          else
+            git commit -m "Sync calendar feeds $(cat feeds/last-sync.txt)"
+            git push
+          fi
