@@ -30,9 +30,10 @@ jobs:
               echo "FAIL $name (kept previous copy)"
             fi
           }
-          fetch gtcys-phil-east.ics "https://gtcys.org/?post_type=tribe_events&ical=1&eventDisplay=list&tribe_events_cat=phil-east"
-          fetch mmsa-school.ics     "https://calendar.google.com/calendar/ical/mmsaschool.org_doi91mkcp0puqcqhvkbm6ufovs%40group.calendar.google.com/public/basic.ics"
-          fetch hm-pioneer-band.ics "https://calendar.google.com/calendar/ical/hmpioneerband%40gmail.com/public/basic.ics"
+          fetch gtcys-phil-east.ics  "https://gtcys.org/?post_type=tribe_events&ical=1&eventDisplay=list&tribe_events_cat=phil-east"
+          fetch gtcys-cam-vivace.ics "https://gtcys.org/?post_type=tribe_events&ical=1&eventDisplay=list&tribe_events_cat=cam-vivace"
+          fetch mmsa-school.ics      "https://calendar.google.com/calendar/ical/mmsaschool.org_doi91mkcp0puqcqhvkbm6ufovs%40group.calendar.google.com/public/basic.ics"
+          fetch hm-pioneer-band.ics  "https://calendar.google.com/calendar/ical/hmpioneerband%40gmail.com/public/basic.ics"
           date -u +%Y-%m-%dT%H:%M:%SZ > cal/last-sync.txt
 
       - name: Commit if changed
