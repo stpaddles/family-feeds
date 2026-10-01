@@ -100,6 +100,7 @@ UID:10003570-1792090800-1792097100@gtcys.org
 SUMMARY:Camerata Vivace Rehearsal - NO REHEARSAL
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-vivace-rehearsal-no-rehearsal
+LOCATION:MN
 CATEGORIES:Camerata Vivace
 END:VEVENT
 BEGIN:VEVENT
@@ -217,6 +218,7 @@ UID:10003593-1795719600-1795725900@gtcys.org
 SUMMARY:Camerata Vivace Rehearsal - NO REHEARSAL
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-vivace-rehearsal-no-rehearsal-2
+LOCATION:MN
 CATEGORIES:Camerata Vivace
 END:VEVENT
 BEGIN:VEVENT
@@ -415,6 +417,21 @@ GEO:45.0596539;-92.9477363
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=St. Andrew’s Lutheran Church 900 Stillwater Rd. Mahtomedi MN 55115;X-APPLE-RADIUS=500;X-TITLE=900 Stillwater Rd.:geo:-92.9477363,45.0596539
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20270304T184500
+DTEND;TZID=America/Chicago:20270304T204500
+DTSTAMP:20261001T162211Z
+CREATED:20261001T162211Z
+LAST-MODIFIED:20261001T162211Z
+UID:10003648-1804185900-1804193100@gtcys.org
+SUMMARY:Camerata Vivace Open Rehearsal
+DESCRIPTION:
+URL:https://gtcys.org/event/camerata-vivace-open-rehearsal
+LOCATION:House of Hope Presbyterian Church\, 797 Summit Avenue\, Saint Paul\, MN\, 55105\, United States
+CATEGORIES:Camerata Vivace
+GEO:44.9419075;-93.1331342
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=House of Hope Presbyterian Church 797 Summit Avenue Saint Paul MN 55105 United States;X-APPLE-RADIUS=500;X-TITLE=797 Summit Avenue:geo:-93.1331342,44.9419075
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20270304T190000
 DTEND;TZID=America/Chicago:20270304T204500
 DTSTAMP:20260819T210341Z
@@ -537,15 +554,15 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20270424T110000
 DTEND;TZID=America/Chicago:20270424T120000
-DTSTAMP:20260930T152231Z
+DTSTAMP:20261001T164424Z
 CREATED:20260814T174412Z
-LAST-MODIFIED:20260930T152231Z
+LAST-MODIFIED:20261001T164424Z
 UID:10003378-1808564400-1808568000@gtcys.org
-SUMMARY:Camerata Con Brio and Camerata Vivace Showcase Concert
+SUMMARY:Concert Orchestra and Camerata Vivace Showcase Concert
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-con-brio-and-camerata-vivace-showcase-concert
 LOCATION:Roseville Area High School\, 1240 County Road B2 W\, Roseville\, MN\, United States
-CATEGORIES:Performances & Events,Camerata Con Brio,Camerata Vivace
+CATEGORIES:Performances & Events,Camerata Vivace,Concert Orchestra
 GEO:45.01218;-93.1519065
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Roseville Area High School 1240 County Road B2 W Roseville MN United States;X-APPLE-RADIUS=500;X-TITLE=1240 County Road B2 W:geo:-93.1519065,45.01218
 END:VEVENT
@@ -582,26 +599,26 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20270508T101500
 DTEND;TZID=America/Chicago:20270508T101500
-DTSTAMP:20260819T214015Z
+DTSTAMP:20261001T165242Z
 CREATED:20260819T213915Z
-LAST-MODIFIED:20260819T214015Z
+LAST-MODIFIED:20261001T165242Z
 UID:10003562-1809771300-1809771300@gtcys.org
 SUMMARY:Spring Festival
 DESCRIPTION:
 URL:https://gtcys.org/event/spring-festival
 LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
-CATEGORIES:Performances & Events,Philharmonia West,Sinfonia West,Concertino East,Camerata Vivace
+CATEGORIES:Performances & Events,Philharmonia West,Sinfonia West,Concertino East,Camerata Vivace,Symphony
 GEO:44.97283;-93.275539
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20270513T190000
 DTEND;TZID=America/Chicago:20270513T204500
-DTSTAMP:20260819T210348Z
+DTSTAMP:20261001T165714Z
 CREATED:20260819T210316Z
-LAST-MODIFIED:20260819T210348Z
+LAST-MODIFIED:20261001T165714Z
 UID:10003311-1810234800-1810241100@gtcys.org
-SUMMARY:Camerata Vivace Rehearsal and Treat Night
+SUMMARY:Camerata Vivace End of Year Party
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-vivace-rehearsal-10
 LOCATION:House of Hope Presbyterian Church\, 797 Summit Avenue\, Saint Paul\, MN\, 55105\, United States
