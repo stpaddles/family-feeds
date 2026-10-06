@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Greater Twin Cities Youth Symphonies - ECPv6.17.5.1//NONSGML v1.0//EN
+PRODID:-//Greater Twin Cities Youth Symphonies - ECPv6.18.0//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Greater Twin Cities Youth Symphonies
@@ -164,12 +164,27 @@ GEO:44.9419075;-93.1331342
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=House of Hope Presbyterian Church 797 Summit Avenue Saint Paul MN 55105 United States;X-APPLE-RADIUS=500;X-TITLE=797 Summit Avenue:geo:-93.1331342,44.9419075
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20261114T084500
+DTEND;TZID=America/Chicago:20261114T103000
+DTSTAMP:20261006T144406Z
+CREATED:20261006T144406Z
+LAST-MODIFIED:20261006T144406Z
+UID:10003681-1794645900-1794652200@gtcys.org
+SUMMARY:Camerata Vivace Dress Rehearsal
+DESCRIPTION:
+URL:https://gtcys.org/event/camerata-vivace-dress-rehearsal-3
+LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
+CATEGORIES:Camerata Vivace
+GEO:44.97283;-93.275539
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261114T103000
-DTEND;TZID=America/Chicago:20261114T143000
-DTSTAMP:20260904T174808Z
+DTEND;TZID=America/Chicago:20261114T123000
+DTSTAMP:20261006T144145Z
 CREATED:20260814T155719Z
-LAST-MODIFIED:20260904T174808Z
-UID:10003345-1794652200-1794666600@gtcys.org
+LAST-MODIFIED:20261006T144145Z
+UID:10003345-1794652200-1794659400@gtcys.org
 SUMMARY:Fall Festival Concert 1
 DESCRIPTION:Festival concerts at Orchestra Hall showcase the incredible artistry across GTCYS’ 11 youth orchestras. Come celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Sinfonia West\, Camerata Vivace\, Concert Orchestra\, Symphony \nTickets Available Soon\n 
 URL:https://gtcys.org/event/fall-festival

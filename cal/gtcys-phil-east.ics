@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Greater Twin Cities Youth Symphonies - ECPv6.17.5.1//NONSGML v1.0//EN
+PRODID:-//Greater Twin Cities Youth Symphonies - ECPv6.18.0//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Greater Twin Cities Youth Symphonies
@@ -149,6 +149,21 @@ LOCATION:House of Hope – Sanctuary\, 797 Summit Ave\, Saint Paul\, 55105\, Uni
 CATEGORIES:Philharmonia East
 GEO:44.9419075;-93.1331342
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=House of Hope – Sanctuary 797 Summit Ave Saint Paul 55105 United States;X-APPLE-RADIUS=500;X-TITLE=797 Summit Ave:geo:-93.1331342,44.9419075
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20261114T130000
+DTEND;TZID=America/Chicago:20261114T143000
+DTSTAMP:20261006T145849Z
+CREATED:20261006T145849Z
+LAST-MODIFIED:20261006T145849Z
+UID:10003686-1794661200-1794666600@gtcys.org
+SUMMARY:Philharmonia East Dress Rehearsal
+DESCRIPTION:
+URL:https://gtcys.org/event/philharmonia-east-dress-rehearsal-4
+LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
+CATEGORIES:Philharmonia East
+GEO:44.97283;-93.275539
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261114T143000
