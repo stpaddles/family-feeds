@@ -61,21 +61,6 @@ DTSTART:20281105T070000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20261024T090000
-DTEND;TZID=America/Chicago:20261024T133000
-DTSTAMP:20260924T180047Z
-CREATED:20260924T180047Z
-LAST-MODIFIED:20260924T180047Z
-UID:10003591-1792832400-1792848600@gtcys.org
-SUMMARY:Woodwind Day
-DESCRIPTION:
-URL:https://gtcys.org/event/woodwind-day
-LOCATION:Westminster Presbyterian Church\, 1200 S Marquette Ave\, Minneapolis\, MN\, United States
-CATEGORIES:Performances & Events,Sinfonia East,Sinfonia West,Concertino East,Concertino West,Camerata Con Brio,Camerata Vivace,Concert Orchestra,Philharmonic,Symphony
-GEO:44.971443;-93.274928
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Westminster Presbyterian Church 1200 S Marquette Ave Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1200 S Marquette Ave:geo:-93.274928,44.971443
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261029T190000
 DTEND;TZID=America/Chicago:20261029T204500
 DTSTAMP:20260819T210329Z
