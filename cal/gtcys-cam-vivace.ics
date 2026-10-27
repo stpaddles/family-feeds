@@ -160,7 +160,6 @@ UID:10003593-1795719600-1795725900@gtcys.org
 SUMMARY:Camerata Vivace Rehearsal - NO REHEARSAL
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-vivace-rehearsal-no-rehearsal-2
-LOCATION:MN
 CATEGORIES:Camerata Vivace
 END:VEVENT
 BEGIN:VEVENT
@@ -282,6 +281,21 @@ LOCATION:House of Hope Presbyterian Church\, 797 Summit Avenue\, Saint Paul\, MN
 CATEGORIES:Camerata Vivace
 GEO:44.9419075;-93.1331342
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=House of Hope Presbyterian Church 797 Summit Avenue Saint Paul MN 55105 United States;X-APPLE-RADIUS=500;X-TITLE=797 Summit Avenue:geo:-93.1331342,44.9419075
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20270203T180000
+DTEND;TZID=America/Chicago:20270203T200000
+DTSTAMP:20261027T173932Z
+CREATED:20261027T173918Z
+LAST-MODIFIED:20261027T173932Z
+UID:10003696-1801677600-1801684800@gtcys.org
+SUMMARY:GTCYS Day of Service
+DESCRIPTION:
+URL:https://gtcys.org/event/gtcys-day-of-service-2
+LOCATION:Second Harvest Heartland\, 7101 Winnetka Ave N\, Brooklyn Park\, 55428\, United States
+CATEGORIES:Philharmonia East,Philharmonia West,Sinfonia East,Sinfonia West,Concertino East,Concertino West,Camerata Con Brio,Camerata Vivace,Concert Orchestra,Philharmonic,Symphony,Student Leadership Team
+GEO:45.0835417;-93.3834026
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Second Harvest Heartland 7101 Winnetka Ave N Brooklyn Park 55428 United States;X-APPLE-RADIUS=500;X-TITLE=7101 Winnetka Ave N:geo:-93.3834026,45.0835417
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20270204T190000
