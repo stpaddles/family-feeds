@@ -108,12 +108,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261114T143000
 DTEND;TZID=America/Chicago:20261114T163000
-DTSTAMP:20260904T174717Z
+DTSTAMP:20261028T142935Z
 CREATED:20260814T155811Z
-LAST-MODIFIED:20260904T174717Z
+LAST-MODIFIED:20261028T142935Z
 UID:10003346-1794666600-1794673800@gtcys.org
 SUMMARY:Fall Festival Concert 2
-DESCRIPTION:Festival concerts showcase the incredible artistry across GTCYS’ 11 youth orchestras. Join us and celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Philharmonia East\, Concertino East\, Philharmonic\, Symphony \nTickets Available Soon
+DESCRIPTION:Festival concerts showcase the incredible artistry across GTCYS’ 11 youth orchestras. Join us and celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Philharmonia East\, Concertino East\, Philharmonic\, Symphony \nGet Tickets
 URL:https://gtcys.org/event/fall-festival-2
 LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
 CATEGORIES:Performances & Events,Philharmonia East,Concertino East,Philharmonic,Symphony

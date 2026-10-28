@@ -123,12 +123,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261114T103000
 DTEND;TZID=America/Chicago:20261114T123000
-DTSTAMP:20261006T144145Z
+DTSTAMP:20261028T142958Z
 CREATED:20260814T155719Z
-LAST-MODIFIED:20261006T144145Z
+LAST-MODIFIED:20261028T142958Z
 UID:10003345-1794652200-1794659400@gtcys.org
 SUMMARY:Fall Festival Concert 1
-DESCRIPTION:Festival concerts at Orchestra Hall showcase the incredible artistry across GTCYS’ 11 youth orchestras. Come celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Sinfonia West\, Camerata Vivace\, Concert Orchestra\, Symphony \nTickets Available Soon\n 
+DESCRIPTION:Festival concerts at Orchestra Hall showcase the incredible artistry across GTCYS’ 11 youth orchestras. Come celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Sinfonia West\, Camerata Vivace\, Concert Orchestra\, Symphony \nGet Tickets\n 
 URL:https://gtcys.org/event/fall-festival
 LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
 CATEGORIES:Performances & Events,Sinfonia West,Camerata Vivace,Concert Orchestra,Symphony
