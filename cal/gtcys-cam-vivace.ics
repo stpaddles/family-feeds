@@ -165,12 +165,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261213T150000
 DTEND;TZID=America/Chicago:20261213T160000
-DTSTAMP:20261104T204720Z
+DTSTAMP:20261106T214314Z
 CREATED:20260814T170802Z
-LAST-MODIFIED:20261104T204720Z
+LAST-MODIFIED:20261106T214314Z
 UID:10003367-1797174000-1797177600@gtcys.org
-SUMMARY:Concertino East and Camerata Vivace Connection Concert
-DESCRIPTION:In December\, GTCYS orchestras present concerts around the metro\, connecting with our community in senior centers\, veterans’ homes\, shelters\, and high schools. \nThis concert is free and open to the public\, and all are welcome! We hope to see you there—more details below.
+SUMMARY:Concertino East and Camerata Vivace Concert
+DESCRIPTION:Conducted by Tamara Gonzalez and Zane Kaiser\, join us for a spirited winter concert capping off a great semester of learning and connection. \nThis concert is free and open to the public\, and all are welcome! We hope to see you there—more details below.
 URL:https://gtcys.org/event/concertino-east-and-camerata-vivace-community-concert
 LOCATION:Roseville Lutheran Church\, 1215 Roselawn Ave W\, Saint Paul\, MN\, United States
 CATEGORIES:Performances & Events,Concertino East,Camerata Vivace
