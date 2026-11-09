@@ -130,6 +130,7 @@ UID:10003593-1795719600-1795725900@gtcys.org
 SUMMARY:Camerata Vivace Rehearsal - NO REHEARSAL
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-vivace-rehearsal-no-rehearsal-2
+LOCATION:MN
 CATEGORIES:Camerata Vivace
 END:VEVENT
 BEGIN:VEVENT
@@ -161,6 +162,21 @@ LOCATION:House of Hope Presbyterian Church\, 797 Summit Avenue\, Saint Paul\, MN
 CATEGORIES:Camerata Vivace
 GEO:44.9419075;-93.1331342
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=House of Hope Presbyterian Church 797 Summit Avenue Saint Paul MN 55105 United States;X-APPLE-RADIUS=500;X-TITLE=797 Summit Avenue:geo:-93.1331342,44.9419075
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20261213T130500
+DTEND;TZID=America/Chicago:20261213T150000
+DTSTAMP:20261109T165629Z
+CREATED:20261109T165629Z
+LAST-MODIFIED:20261109T165629Z
+UID:10003705-1797167100-1797174000@gtcys.org
+SUMMARY:Camerata Vivace Dress Rehearsal
+DESCRIPTION:
+URL:https://gtcys.org/event/camerata-vivace-dress-rehearsal-4
+LOCATION:Roseville Area High School\, 1240 County Road B2 W\, Roseville\, MN\, United States
+CATEGORIES:Camerata Vivace
+GEO:45.01218;-93.1519065
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Roseville Area High School 1240 County Road B2 W Roseville MN United States;X-APPLE-RADIUS=500;X-TITLE=1240 County Road B2 W:geo:-93.1519065,45.01218
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261213T150000
