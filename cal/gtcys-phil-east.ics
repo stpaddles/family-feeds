@@ -61,36 +61,6 @@ DTSTART:20281105T070000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20261114T125500
-DTEND;TZID=America/Chicago:20261114T143000
-DTSTAMP:20261021T154957Z
-CREATED:20261006T145849Z
-LAST-MODIFIED:20261021T154957Z
-UID:10003686-1794660900-1794666600@gtcys.org
-SUMMARY:Philharmonia East Dress Rehearsal
-DESCRIPTION:
-URL:https://gtcys.org/event/philharmonia-east-dress-rehearsal-4
-LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
-CATEGORIES:Philharmonia East
-GEO:44.97283;-93.275539
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20261114T143000
-DTEND;TZID=America/Chicago:20261114T163000
-DTSTAMP:20261028T142935Z
-CREATED:20260814T155811Z
-LAST-MODIFIED:20261028T142935Z
-UID:10003346-1794666600-1794673800@gtcys.org
-SUMMARY:Fall Festival Concert 2
-DESCRIPTION:Festival concerts showcase the incredible artistry across GTCYS’ 11 youth orchestras. Join us and celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Philharmonia East\, Concertino East\, Philharmonic\, Symphony \nGet Tickets
-URL:https://gtcys.org/event/fall-festival-2
-LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
-CATEGORIES:Performances & Events,Philharmonia East,Concertino East,Philharmonic,Symphony
-GEO:44.97283;-93.275539
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261117T183000
 DTEND;TZID=America/Chicago:20261117T200000
 DTSTAMP:20260927T182851Z
