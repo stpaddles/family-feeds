@@ -61,36 +61,6 @@ DTSTART:20281105T070000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20261114T084000
-DTEND;TZID=America/Chicago:20261114T103000
-DTSTAMP:20261021T154802Z
-CREATED:20261006T144406Z
-LAST-MODIFIED:20261021T154802Z
-UID:10003681-1794645600-1794652200@gtcys.org
-SUMMARY:Camerata Vivace Dress Rehearsal
-DESCRIPTION:
-URL:https://gtcys.org/event/camerata-vivace-dress-rehearsal-3
-LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
-CATEGORIES:Camerata Vivace
-GEO:44.97283;-93.275539
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20261114T103000
-DTEND;TZID=America/Chicago:20261114T123000
-DTSTAMP:20261028T142958Z
-CREATED:20260814T155719Z
-LAST-MODIFIED:20261028T142958Z
-UID:10003345-1794652200-1794659400@gtcys.org
-SUMMARY:Fall Festival Concert 1
-DESCRIPTION:Festival concerts at Orchestra Hall showcase the incredible artistry across GTCYS’ 11 youth orchestras. Come celebrate as GTCYS students come together to share their music\, from first-time players to pre-professional musicians. \nPerforming: Sinfonia West\, Camerata Vivace\, Concert Orchestra\, Symphony \nGet Tickets\n 
-URL:https://gtcys.org/event/fall-festival
-LOCATION:Orchestra Hall\, 1111 Nicollet Mall\, Minneapolis\, MN\, United States
-CATEGORIES:Performances & Events,Sinfonia West,Camerata Vivace,Concert Orchestra,Symphony
-GEO:44.97283;-93.275539
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Orchestra Hall 1111 Nicollet Mall Minneapolis MN United States;X-APPLE-RADIUS=500;X-TITLE=1111 Nicollet Mall:geo:-93.275539,44.97283
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20261119T190000
 DTEND;TZID=America/Chicago:20261119T204500
 DTSTAMP:20260818T172919Z
