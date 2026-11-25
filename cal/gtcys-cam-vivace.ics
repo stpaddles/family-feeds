@@ -70,7 +70,6 @@ UID:10003593-1795719600-1795725900@gtcys.org
 SUMMARY:Camerata Vivace Rehearsal - NO REHEARSAL
 DESCRIPTION:
 URL:https://gtcys.org/event/camerata-vivace-rehearsal-no-rehearsal-2
-LOCATION:MN
 CATEGORIES:Camerata Vivace
 END:VEVENT
 BEGIN:VEVENT
@@ -188,6 +187,21 @@ UID:10003561-1800788400-1800810000@gtcys.org
 SUMMARY:Winter Retreat
 DESCRIPTION:
 URL:https://gtcys.org/event/winter-retreat-3
+LOCATION:Two Rivers High School\, 1897 Delaware Ave\, Mendota Heights\, 55118\, United States
+CATEGORIES:Sinfonia East,Concertino East,Camerata Vivace
+GEO:44.8870355;-93.1065268
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Two Rivers High School 1897 Delaware Ave Mendota Heights 55118 United States;X-APPLE-RADIUS=500;X-TITLE=1897 Delaware Ave:geo:-93.1065268,44.8870355
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20270124T140000
+DTEND;TZID=America/Chicago:20270124T183000
+DTSTAMP:20261124T210808Z
+CREATED:20261124T205533Z
+LAST-MODIFIED:20261124T210808Z
+UID:10003712-1800799200-1800815400@gtcys.org
+SUMMARY:Winter Retreat
+DESCRIPTION:
+URL:https://gtcys.org/event/winter-retreat-7
 LOCATION:Two Rivers High School\, 1897 Delaware Ave\, Mendota Heights\, 55118\, United States
 CATEGORIES:Sinfonia East,Concertino East,Camerata Vivace
 GEO:44.8870355;-93.1065268
